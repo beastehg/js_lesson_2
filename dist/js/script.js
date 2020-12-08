@@ -7,8 +7,8 @@
 // } else if (varNumber == 0) {
 // 	alert("0");
 // }
-//
-//
+
+
 // // Задача № 2
 // let money_1 = +prompt();
 // let money_2 = +prompt();
@@ -17,8 +17,8 @@
 // } else {
 // 	alert("Слишком мало денег!");
 // }
-//
-//
+
+
 // // Задача № 3
 // let age = 26;
 // if (age >= 20 && age < 27) {
@@ -26,8 +26,8 @@
 // } else {
 // 	alert("Пока свободен !");
 // }
-//
-//
+
+
 // // Задача № 4
 // let busNumber = +prompt();
 // if (busNumber == 255 || busNumber == 225 || busNumber == 7) {
@@ -35,8 +35,8 @@
 // } else {
 // 	alert("Ожидай не твой автобус");
 // }
-//
-//
+
+
 // // Задача № 5
 // let day =  prompt();
 // let convertDay = day.charAt(0).toUpperCase() + day.slice(1, day.length);
@@ -53,8 +53,8 @@
 // 		alert("Выходной");
 // 		break;
 // }
-//
-//
+
+
 // // Задача № 6
 // let x = +prompt();
 // let y = +prompt();
@@ -63,12 +63,12 @@
 // } else {
 // 	alert("Неверно!");
 // }
-//
-//
+
+
 // // Задача № 7
 // let x = +prompt();
 // let y = +prompt();
-// // let summ;
+// let summ;
 // if ((x > 2 && x < 11) || (y >= 6 && y < 14)) {
 // 	x = x * 2;
 // 	alert(x);
@@ -76,16 +76,16 @@
 // 	x = x + 5;
 // 	alert(x);
 // }
-//
-//
+
+
 // // Задача № 8
 // let firstName = prompt();
 // console.log(firstName);
 // if (firstName !== null && firstName !== "" ) {
 // 	alert("Привет " +firstName);
 // }
-//
-//
+
+
 // // Задача № 9
 // let greeting = "";
 // let lang = prompt();
@@ -103,8 +103,8 @@
 // 		break;
 // }
 // alert(greeting);
-//
-//
+
+
 // // Задача № 10
 // let month = new Date().getMonth();
 // switch (month) {
@@ -131,8 +131,8 @@
 // 	default:
 // 		break;
 // }
-//
-//
+
+
 // // Задача № 11
 // let lang = prompt();
 // let day = +prompt();
@@ -189,8 +189,8 @@
 // 			break;
 // 	}
 // }
-//
-//
+
+
 // // Задача № 12
 // // Метод Swith
 // let firstName = prompt();
@@ -206,28 +206,28 @@
 // 		console.log("Пока");
 // 		break;
 // }
-//
+
 // // Терный оператор
 // let firstName = prompt();
 // let age = +prompt();
 // (firstName === "John" && age === 29) ? console.log(firstName + " " + age):
 // 	(firstName === "Kate" && age === 15) ? console.log(firstName + " " + age) : console.log("Пока");
-//
+
 // // Задача № 13
 // let str = "";
 // for (let i = 0; i < 5; i++) {
 // 	str +=".#";
 // }
 // console.log(str);
-//
+
 // // Задача № 14
 // for (let i = 1; i <= 10; i++) {
 // 	if (i % 2 == 0) {
 // 		console.log(i * i);
 // 	}
 // }
-//
-//
+
+
 // // Задача № 15
 // let userName = "Dima";
 // for (let i = 0; i < 1; i++) {
@@ -236,8 +236,8 @@
 // 	console.log("Happy birthday dear " + userName);
 // 	console.log("Happy birthday to you");
 // }
-//
-//
+
+
 // // Задача № 16
 // let varConfirm = confirm();
 // let count = 0;
@@ -247,8 +247,8 @@
 // 	console.log(count);
 // 	varConfirm = confirm();
 // }
-//
-//
+
+
 // // Задача № 17
 // let varNumber = +prompt();
 // let total = null;
@@ -259,8 +259,8 @@
 // 	}
 // }
 // alert(total);
-//
-//
+
+
 // // Задача № 18
 // let count = 0;
 // while (true) {
@@ -272,20 +272,20 @@
 // 		break;
 // 	}
 // }
-//
-//
+
+
 // // Задача № 19
 // for (let i = 1; i <= 10; i++) {
 // 	for (let k = 1; k <= 10; k++) {
 // 		console.log(k + " * " + i +" = " +(k * i));
 // 	}
 // }
-//
-//
+
+
 // // Задача № 20
 // for (let i = 0, x = 1, y = 1; i <= 20; i++, x = y - x, y += x, console.log(x)) {}
-//
-//
+
+
 // // Задача № 21
 // let varNumber = +prompt();
 // let count = 0;
@@ -298,9 +298,9 @@
 // console.log("Счетчик = " + count);
 // console.log("Сумма введеных чисел = " + sum);
 // console.log("Среднее арифметическое = " + sum / count);
-//
-//
-//
+
+
+
 // // Задача № 22
 // let password = "123qwe";
 // let authorization;
@@ -322,7 +322,7 @@
 // 			break;
 // 		}
 // 	}
-//
+
 // // Задача № 23
 // for (let i = 1; i <= 50; i++) {
 // 	if (((i % 3) === 0) && ((i % 5) !== 0)) {
