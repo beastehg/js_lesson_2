@@ -228,14 +228,15 @@
 // }
 
 
-// // Задача № 15
-// let userName = "Dima";
-// for (let i = 0; i < 1; i++) {
-// 	console.log("Happy birthday to you");
-// 	console.log("Happy birthday to you");
-// 	console.log("Happy birthday dear " + userName);
-// 	console.log("Happy birthday to you");
-// }
+// Задача № 15
+let userName = "Dima";
+for (let i = 0; i <= 4; i++) {
+	if (i === 3) {
+		console.log("Happy birthday dear " + userName);
+	} else {
+		console.log("Happy birthday to you");
+	}
+}
 
 
 // // Задача № 16
